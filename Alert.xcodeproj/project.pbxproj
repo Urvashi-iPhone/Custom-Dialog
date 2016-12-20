@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD0743481DD6DDB9001FF0ED /* CustomIOSAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0743471DD6DDB9001FF0ED /* CustomIOSAlertView.m */; };
+		AD07434A1DD6DF39001FF0ED /* app_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0743491DD6DF39001FF0ED /* app_bg.jpg */; };
 		AD3A4EDB1DD5E9B000A4E63A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3A4EDA1DD5E9B000A4E63A /* main.m */; };
 		AD3A4EDE1DD5E9B000A4E63A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3A4EDD1DD5E9B000A4E63A /* AppDelegate.m */; };
 		AD3A4EE11DD5E9B000A4E63A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3A4EE01DD5E9B000A4E63A /* ViewController.m */; };
@@ -15,6 +17,7 @@
 		AD3A4EE91DD5E9B000A4E63A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3A4EE71DD5E9B000A4E63A /* LaunchScreen.storyboard */; };
 		AD3A4EF41DD5E9B000A4E63A /* AlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3A4EF31DD5E9B000A4E63A /* AlertTests.m */; };
 		AD3A4EFF1DD5E9B100A4E63A /* AlertUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3A4EFE1DD5E9B100A4E63A /* AlertUITests.m */; };
+		AD3A4F0D1DD5E9F300A4E63A /* radio-checked.png in Resources */ = {isa = PBXBuildFile; fileRef = AD3A4F0C1DD5E9F300A4E63A /* radio-checked.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD0743461DD6DDB9001FF0ED /* CustomIOSAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomIOSAlertView.h; sourceTree = "<group>"; };
+		AD0743471DD6DDB9001FF0ED /* CustomIOSAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomIOSAlertView.m; sourceTree = "<group>"; };
+		AD0743491DD6DF39001FF0ED /* app_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = app_bg.jpg; sourceTree = "<group>"; };
 		AD3A4ED61DD5E9B000A4E63A /* Alert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3A4EDA1DD5E9B000A4E63A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD3A4EDC1DD5E9B000A4E63A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,7 @@
 		AD3A4EFA1DD5E9B100A4E63A /* AlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3A4EFE1DD5E9B100A4E63A /* AlertUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertUITests.m; sourceTree = "<group>"; };
 		AD3A4F001DD5E9B100A4E63A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD3A4F0C1DD5E9F300A4E63A /* radio-checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-checked.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +110,12 @@
 			children = (
 				AD3A4EDC1DD5E9B000A4E63A /* AppDelegate.h */,
 				AD3A4EDD1DD5E9B000A4E63A /* AppDelegate.m */,
+				AD0743461DD6DDB9001FF0ED /* CustomIOSAlertView.h */,
+				AD0743471DD6DDB9001FF0ED /* CustomIOSAlertView.m */,
+				AD3A4F0C1DD5E9F300A4E63A /* radio-checked.png */,
 				AD3A4EDF1DD5E9B000A4E63A /* ViewController.h */,
 				AD3A4EE01DD5E9B000A4E63A /* ViewController.m */,
+				AD0743491DD6DF39001FF0ED /* app_bg.jpg */,
 				AD3A4EE21DD5E9B000A4E63A /* Main.storyboard */,
 				AD3A4EE51DD5E9B000A4E63A /* Assets.xcassets */,
 				AD3A4EE71DD5E9B000A4E63A /* LaunchScreen.storyboard */,
@@ -249,6 +260,8 @@
 				AD3A4EE91DD5E9B000A4E63A /* LaunchScreen.storyboard in Resources */,
 				AD3A4EE61DD5E9B000A4E63A /* Assets.xcassets in Resources */,
 				AD3A4EE41DD5E9B000A4E63A /* Main.storyboard in Resources */,
+				AD07434A1DD6DF39001FF0ED /* app_bg.jpg in Resources */,
+				AD3A4F0D1DD5E9F300A4E63A /* radio-checked.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD0743481DD6DDB9001FF0ED /* CustomIOSAlertView.m in Sources */,
 				AD3A4EE11DD5E9B000A4E63A /* ViewController.m in Sources */,
 				AD3A4EDE1DD5E9B000A4E63A /* AppDelegate.m in Sources */,
 				AD3A4EDB1DD5E9B000A4E63A /* main.m in Sources */,
@@ -507,6 +521,7 @@
 				AD3A4F051DD5E9B100A4E63A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD3A4F061DD5E9B100A4E63A /* Build configuration list for PBXNativeTarget "AlertTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +530,7 @@
 				AD3A4F081DD5E9B100A4E63A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD3A4F091DD5E9B100A4E63A /* Build configuration list for PBXNativeTarget "AlertUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +539,7 @@
 				AD3A4F0B1DD5E9B100A4E63A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

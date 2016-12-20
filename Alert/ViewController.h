@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CustomIOSAlertView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<CustomIOSAlertViewDelegate>
 
 
 @end
